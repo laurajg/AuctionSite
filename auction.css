@@ -1,0 +1,224 @@
+#main{
+width: 1100px;
+margin: auto;
+position: relative;
+top: 100px;
+}
+
+body{
+	font:75.5% "Lucida Grande","Lucida Sans Unicode","Lucida Sans",Verdana,Arial,sans-serif;
+	background: #ECECEA;
+}
+
+#bidPlace{
+	float: left;
+}
+
+#navBar{
+	background-color: #000052;
+	color: white;
+	box-shadow:0 2px 2px rgba(0,0,0,0.4) inset;
+	margin-bottom: 3px;
+	font-family:"Century Gothic",Futura,sans-serif;
+	overflow:hidden;
+	position:absolute;
+	left:0;
+	top: 35px;
+	width:100%;
+	height:55px;
+}
+
+#navBar a:link{
+	color: white;
+}
+
+#navBar a:visited{
+	color: white;
+}
+
+.titleRow{
+	font-weight: bold;
+	background-color: #9999ff;
+	padding: 3px 3px 3px 4px;
+	margin-bottom: 13px;
+	box-shadow:0 2px 2px rgba(0,0,0,0.4);
+	font-family:"Century Gothic",Futura,sans-serif;
+}
+
+.bold{
+	font-weight: bold;
+}
+
+#BarText{
+	vertical-align:middle;
+	position: relative;
+	left: 20px;
+	top: 20px;
+	font-style:italic;
+	width: 1000px;
+}
+
+
+#leftBlock{
+float:left;
+margin:  0px 8px 0px 8px;
+width: 700px;
+position: relative;
+}
+
+#rightBlock{
+float:left;
+margin:  0px 0px 0px 5px;
+width: 300px;
+background: #F8F8F8 ;
+box-shadow:0 2px 2px rgba(0,0,0,0) inset;
+position: absolute
+top: 50px;
+}
+
+
+#header{
+	float: left;
+	clear:both;
+	background-color: #c1d6ff;
+	margin-bottom: 15px;
+	margin-left: 8px;
+	padding-left: 2px;
+	width: 1205px;
+	height: 80px;
+	box-shadow:0 2px 2px rgba(0,0,0,0.4) inset;
+	-webkit-box-shadow:0 2px 2px rgba(0,0,0,0.4) inset;
+	-moz-box-shadow:0 2px 2px rgba(0,0,0,0.4) inset;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+
+#HeaderText{
+	vertical-align:middle;
+	position: relative;
+	left: 10px;
+	top: 18px;
+	font-style:italic;
+	background-color: #c1d6ff;
+	width: 950px;
+}
+
+#topBar{
+	clear: both;
+}
+
+#lowerBlock{
+	clear: both;
+	width: 700px;
+}
+
+#header2{
+	float: left;
+	clear:both;
+	background-color: #c1d6ff;
+	margin-bottom: 10px;
+	padding-left: 2px;
+	width: 700px;
+	box-shadow:0 2px 2px rgba(0,0,0,0.4) inset;
+	-webkit-box-shadow:0 2px 2px rgba(0,0,0,0.4) inset;
+	-moz-box-shadow:0 2px 2px rgba(0,0,0,0.4) inset;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+#header3{
+	float: left;
+	clear:both;
+	background-color: #c1d6ff;
+	margin-bottom: 10px;
+	padding: 10px 0px 10px 5px;
+	width: 700px;
+	box-shadow:0 2px 2px rgba(0,0,0,0.4) inset;
+	-webkit-box-shadow:0 2px 2px rgba(0,0,0,0.4) inset;
+	-moz-box-shadow:0 2px 2px rgba(0,0,0,0.4) inset;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+#header h1 {
+	display:inline;
+	top:0;
+	padding: 30px 0px 0px 10px;
+	margin: 0;
+	font-size: 40pt;
+	font-weight:normal;
+	float: left;
+	position:relative;
+	white-space:nowrap;
+	overflow:hidden
+	font:75.5% 
+	font-family:"Century Gothic",Futura,sans-serif;
+}
+
+
+#bids{
+	float: left;
+	clear:both;
+	width: 700px;
+}
+
+
+
+#lookupTable{
+	border-collapse:collapse;
+	float: left;
+	margin-right: 10px;	
+}
+
+#lookupTable td{
+	background-color: #c1d6ff;
+
+}
+
+#lookupTable2 td{
+	background-color: #c1d6ff;
+
+}
+
+table.bidsTable{
+	border-collapse:collapse;
+	width: 700px;
+	padding: 2px;
+}
+
+.bidsTable td {
+	background: #e8edff;
+	border-bottom: 1px solid #fff;
+	color: #669;
+	border-top: 1px solid transparent;
+}
+
+.lookupTable3 td {
+	background: #e8edff;
+	border-bottom: 1px solid #fff;
+	color: #669;
+	border-top: 1px solid transparent;
+	padding: 4px;
+}
+
+.lookupTable3 th{
+	background-color: #CFCFFF;
+}
+
+.bidsTable th{
+	background-color: #CFCFFF;
+}
+
+table{
+	border-collapse:collapse;
+	padding: 5px;
+}
+
+th, td{
+	padding: 1px;
+	background: #F8F8F8 ;
+}

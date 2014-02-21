@@ -1,0 +1,48 @@
+<div id="HeaderText">
+
+<table id="lookupTable" bgcolor="#D9853B"> 
+	<tr> 
+		<td class="bold"> Auction ID:  </td>
+		<td> <input type="text" name="AuctionID" > </td>
+		<td class="bold"> Item Name:  </td>
+		<td> <input type="text" name="Name" > </td>
+		<td class="bold"> Category:  </td>
+		<td> <input type="text" name="Category" > </td>
+	</tr>
+	<tr>
+		<td class="bold"> Minimum Current Bid: </td>
+		<td> <input type="text" name="Min" > </td>
+		<td class="bold"> Maximum Current Bid: </td>
+		<td> <input type="text" name="Max" > </td>
+		<td class="bold"> Status: </td>
+		<td>
+			<select name="Status">
+				<option value="both"> Either </option>
+				<option value="open"> Auction Open </option>
+				<option value="closed"> Auction Closed </option>
+			</select>
+		</td>
+	</tr>
+</table>
+
+<table id="lookupTable2" bgcolor="#D9853B">
+	<tr>
+		<td>
+			<select name="Order">
+				<option value="CurrentBid Asc"> Order By: </option>
+				<option value="CurrentBid Asc"> Price (Low to High)</option>
+				<option value="CurrentBid Desc">Price (High to Low)</option>
+				<option value="ItemID">ItemID </option>
+				<option value="NumBids"> Number of Bids </option>
+				<option value="StartDate"> Start Date </option>
+				<option value="EndDate"> End Date </option>
+			</select>
+		</td>
+	</tr>
+	<tr>
+		<td> <input type="submit" value="Submit"> </td>	
+	</tr>
+</table>
+		
+
+</div>
