@@ -1,35 +1,10 @@
 
 """
-FILE: skeleton_parser.py
+FILE: _parser.py
 ------------------
-Author: Garrett Schlesinger (gschles@cs.stanford.edu)
-Author: Chenyu Yang (chenyuy@stanford.edu)
-Modified: 10/13/2012
 
-Skeleton parser for cs145 programming project 1. Has useful imports and
-functions for parsing, including:
 
-1) Directory handling -- the parser takes a list of eBay xml files
-and opens each file inside of a loop. You just need to fill in the rest.
-2) Dollar value conversions -- the xml files store dollar value amounts in 
-a string like $3,453.23 -- we provide a function to convert it to a string
-like XXXXX.xx.
-3) Date/time conversions -- the xml files store dates/ times in the form 
-Mon-DD-YY HH:MM:SS -- we wrote a function (transformDttm) that converts to the
-for YYYY-MM-DD HH:MM:SS, which will sort chronologically in SQL.
-4) A function to get the #PCDATA of a given element (returns the empty string
-if the element is not of #PCDATA type)
-5) A function to get the #PCDATA of the first subelement of a given element with
-a given tagname. (returns the empty string if the element doesn't exist or 
-is not of #PCDATA type)
-6) A function to get all elements of a specific tag name that are children of a
-given element
-7) A function to get only the first such child
 
-Your job is to implement the parseXml function, which is invoked on each file by
-the main function. We create the dom for you; the rest is up to you! Get familiar 
-with the functions at http://docs.python.org/library/xml.dom.minidom.html and 
-http://docs.python.org/library/xml.dom.html
 
 Happy parsing!
 """
